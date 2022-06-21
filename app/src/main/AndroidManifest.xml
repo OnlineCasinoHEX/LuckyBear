@@ -1,0 +1,47 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.lucky.bear">
+
+    <application
+        android:name="com.lucky.bear.ChowBubbleApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.FullScreen"
+        tools:ignore="GoogleAppIndexingWarning"
+        >
+        <activity
+            android:name="com.lucky.bear.activities.ActivityMainMenu"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.lucky.bear.activities.ActivityInstructions"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:label="@string/instructions_name" >
+        </activity>
+        <activity
+            android:name="com.lucky.bear.activities.ActivityGame"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:label="@string/game_name" >
+        </activity>
+        <activity
+            android:name="com.lucky.bear.activities.ActivityGameOver"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:label="@string/game_over_name" >
+        </activity>
+    </application>
+</manifest>

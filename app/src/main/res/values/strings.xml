@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lucky Bear</string>
+    <string name="instructions_name">Instructions</string>
+    <string name="game_name">Lucky Bear Game</string>
+    <string name="game_over_name">Game Over</string>
+    <string name="new_score">Your Score: %d</string>
+    <string name="best_score">Best Score: %d</string>
+</resources>
